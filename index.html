@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <div class="m-auto items-center flex flex-col justify-center">
+    <p>Hello Bienvenu au Pierre Feuille Ciseaux</p>
+      <div class="flex flex-row items-center justify-center gap-4">
+        <button class="bg-sky-500 hover:bg-sky-700 rounded" onclick="Appuyer(value='pierre' )" id="pierre">Pierre</button>
+        <button class="bg-sky-500 hover:bg-sky-700 rounded" onclick="Appuyer(value='feuille')" id="feuille">Feuille</button>
+        <button class="bg-sky-500 hover:bg-sky-700 rounded"  onclick="Appuyer(value='ciseaux')" id="ciseaux">Ciseaux</button>
+      </div>
+    <p>CHOIX DE L'ORDINATEUR</p>
+    <div id="Ordi" ></div>
+    <p>RESULTAT</p>
+    <div id="Resultat"></div>
+    <p>TOUR DE JEU</p>
+    <div id="Tour"></div>
+    <p>SCORE</p>
+    <div id="Score"></div>
+    <button class="bg-sky-500 hover:bg-sky-700 rounded" onclick="DixMilleClique()">Dixmilleclique</button>
+  </div>
+</body>
+</html>
+<script src="index.js"></script>
